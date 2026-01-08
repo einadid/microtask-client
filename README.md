@@ -1,17 +1,44 @@
-# React + Vite
+# MicroTask - Micro Task and Earning Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A MERN stack platform for micro-tasking and earning money, similar to Picoworker and Clickworker.
 
-Currently, two official plugins are available:
+## 🌟 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Role-based System**: Separate interfaces for Workers, Buyers, and Admins
+- **Secure Authentication**: Firebase authentication with JWT tokens
+- **Coin Economy**: Workers earn coins, Buyers purchase coins to post tasks
+- **Task Management**: Create, complete, review, and approve tasks
+- **Payment System**: Stripe integration for purchasing coins
+- **Withdrawal System**: Workers can withdraw earnings (20 coins = $1)
+- **Notification System**: Real-time notifications for task updates
+- **Responsive Design**: Works on all devices (mobile, tablet, desktop)
+- **Admin Dashboard**: Manage users, tasks, and withdrawals
 
-## React Compiler
+## 🔗 Live Links
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Frontend**: https://microtask-client.web.app
+- **Backend**: https://microtask-server.vercel.app
+- **Client Repository**: https://github.com/your-username/microtask-client
+- **Server Repository**: https://github.com/your-username/microtask-server
 
-## Expanding the ESLint configuration
+## 👥 Admin Credentials
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-"# microtask-client" 
+- **Admin Email**: admin@microtask.com
+- **Admin Password**: admin123
+
+## 🚀 Tech Stack
+
+- **Frontend**: React.js, Vite, Tailwind CSS, React Router
+- **Backend**: Node.js, Express.js
+- **Database**: MongoDB
+- **Authentication**: Firebase Auth
+- **Payments**: Stripe
+- **Image Hosting**: imgBB
+
+## 📦 Installation
+
+### Client Setup
+```bash
+cd microtask-client
+npm install
+npm run dev

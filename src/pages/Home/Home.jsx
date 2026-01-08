@@ -1,4 +1,3 @@
-import { Helmet } from 'react-helmet-async';
 import Hero from '../../components/Home/Hero';
 import BestWorkers from '../../components/Home/BestWorkers';
 import Testimonials from '../../components/Home/Testimonials';
@@ -8,12 +7,11 @@ import Stats from '../../components/Home/Stats';
 import FAQ from '../../components/Home/FAQ';
 
 const Home = () => {
+    // Update document title using useEffect instead of Helmet
+    document.title = 'MicroTask | Home - Complete Tasks & Earn Money';
+
     return (
-        <>
-            <Helmet>
-                <title>MicroTask | Home - Complete Tasks & Earn Money</title>
-            </Helmet>
-            
+        <div>
             <Hero />
             <BestWorkers />
             <HowItWorks />
@@ -21,7 +19,7 @@ const Home = () => {
             <Stats />
             <Testimonials />
             <FAQ />
-        </>
+        </div>
     );
 };
 
